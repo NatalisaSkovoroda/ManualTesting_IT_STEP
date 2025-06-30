@@ -1,0 +1,55 @@
+from  selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.common.keys import Keys
+import time
+"""
+webtest=webdriver.Chrome()
+
+webtest.get("https://avrora.ua/?utm_source=google&utm_medium=cpc&utm_campaign=Ukr-Perform_Max-Summer-Avrora&utm_content=gid__x_c_1012850&utm_term=___&gad_source=1&gad_campaignid=22583292165&gbraid=0AAAAAqmCixPW1pCAq_rSGvsQeXfE7y4a3&gclid=CjwKCAjwvO7CBhAqEiwA9q2YJbvqQbmpy3-ii7EEaRzjm4tXISQ_lariOuVRFOTFHNykO9uhBzhYqxoCjucQAvD_BwE")
+
+
+print("Page is open")
+
+search = webtest.find_element(By.XPATH, "/html/body/div[2]/div[4]/div/div[2]/div/div[1]/div/div[1]/div/div/div[3]/div/div[1]/form/input[9]")
+search.clear()
+search.send_keys("Топчики тижня")
+search.send_keys(Keys.ENTER)
+search = webtest.find_element(By.XPATH, "/html/body/div[2]/div[4]/div/div[2]/div/div[1]/div/div[1]/div/div/div[3]/div/div[1]/form/input[9]")
+search.clear()
+search.send_keys("Топчики тижня")
+search.send_keys(Keys.ENTER)
+search = webtest.find_element(By.XPATH, "/html/body/div[2]/div[4]/div/div[2]/div/div[1]/div/div[1]/div/div/div[3]/div/div[1]/form/input[9]")
+search.clear()
+search.send_keys("Топчики тижня")
+search.send_keys(Keys.ENTER)
+search = webtest.find_element(By.XPATH, "/html/body/div[2]/div[4]/div/div[2]/div/div[1]/div/div[1]/div/div/div[3]/div/div[1]/form/input[9]")
+search.clear()
+search.send_keys("Топчики тижня")
+search.send_keys(Keys.ENTER)
+search = webtest.find_element(By.XPATH, "/html/body/div[2]/div[4]/div/div[2]/div/div[1]/div/div[1]/div/div/div[3]/div/div[1]/form/input[9]")
+search.clear()
+search.send_keys("Топчики тижня")
+search.send_keys(Keys.ENTER)
+time.sleep(10)
+print("Page is close")
+items 
+"""
+
+test1 = webdriver.Chrome()
+test1.get('https://exe.ua/')
+items = ['Монітори, планшети, ноутбуки, міні-пютери, картрідери']
+time.sleep(2)
+print('Test started.....')
+
+for elem in items:
+    try:
+        time.sleep(0.5)
+        search = test1.find_element(By.XPATH,'//' ')
+        search.clear()
+        search.send_keys(Keys.Enter)
+    except Exception as e :
+    print ('Error')
+
+
